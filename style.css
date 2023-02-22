@@ -1,0 +1,137 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.header {
+  width:100%;
+  background-color: black;
+  display:flex;
+  padding:10px;
+}
+.left-nav {
+  width:70%;
+  color:white;
+  font-size:30px;
+  display: flex;
+}
+.right-nav {
+  width:30%;
+  color:white;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+li {
+  padding-right: 15px;
+}
+.body1 {
+  width:100;
+  margin:20px 30px 20px 30px;
+  display: flex;
+  justify-content: center;
+}
+.leftbody {
+  width:40%;
+  border:1px solid rgb(187, 187, 187);
+  background-color: rgb(187, 187, 187);
+  color:rgb(100, 100, 100);
+  height:300px;
+  font-size:50px;
+  text-align: center;
+  padding-top:130px;
+  
+}
+
+.rightbody {
+  width:40%;
+  /*border:1px solid black;*/
+  text-align: justify;
+  height:300px;
+  padding-top:50px;
+  margin-left:30px;
+  justify-content: center;
+  padding-top:70px;
+}
+.heading {
+  padding-bottom: 10px;
+}
+.button {
+  border:1px solid rgb(45, 45, 189);
+  border-radius: 3px;
+  color:white;
+  background-color: rgb(45, 45, 189); 
+  width:120px;
+  padding:3px;
+  text-align: center;
+  position:relative;
+  top:20px;
+  
+}
+.body2{
+  background-color: rgb(78, 78, 78); 
+  width:100;
+  margin:20px 30px 20px 30px;
+  padding:20px;
+  text-align: center;
+  color: white;
+}
+.body3 {
+  width:100%;
+  justify-content: center;
+  display:flex;
+}
+.one{
+  border:1px solid rgb(197, 196, 196);
+  width:300px;
+  padding:10px;
+  height:150px;
+}
+.two {
+  border:1px solid rgb(197, 196, 196);
+  width:300px;
+  padding:10px;
+  height:150px;
+}
+.three {
+  border:1px solid rgb(197, 196, 196);
+  width:300px;
+  padding:10px;
+  height:150px;
+}
+.row {
+  display:flex;
+}
+.outer {
+  padding-right: 50px;
+}
+.button2{
+  background-color: rgb(45, 45, 189);
+}
+.foot {
+  width:300px;
+  border:1px solid rgb(197, 196, 196);
+  border-top: none;
+  background-color: whitesmoke;
+  padding:3px;
+}
+.moreinfo {
+  background-color: rgb(45, 45, 189);
+  font-size: 15px;
+  width:80px;
+  margin-left: 5px;
+  border-radius: 3px;
+  text-align: center;
+  padding:3px;
+  color:white;
+}
+.footer {
+  width:100%;
+  height:40px;
+  padding-top: 10px;
+  background-color: black;
+  color: rgb(248, 248, 238);
+  text-align: center;
+  margin-top:10px;
+}
+
